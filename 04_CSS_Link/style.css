@@ -1,0 +1,9 @@
+/* 계층구조에 따라 부모 -> 자식 순으로 넣기 */
+body {
+  background-color: orange;
+}
+
+h1 {
+  font-style: italic;
+  color: green;
+}

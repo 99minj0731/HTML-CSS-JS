@@ -1,0 +1,39 @@
+<!-- 
+외부 링크나 파일 링크 하기 : a (Anchor)
+<a href="https://naver.com">Naver</a>
+
+href = HyperLink Reference
+이미지 html 문서에 넣기 : img
+<img src="...">
+
+링크와 이미지 중첩하기
+<a href="https://naver.com"><img src=""></a>    
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <a href="https://naver.com">Naver</a> <br>
+  <!-- 새로운 창으로 열기 -->
+  <a href="https://naver.com" target="_blank">Naver</a> <br>
+  <!-- 마우스를 올리면 설명창 보이도록 하기 -->
+  <a href="https://naver.com" target="_blank" title="네이버로 이동">Naver</a> <br>
+  <hr>
+
+  <!-- alt: 이미지가 출력되지 않을 경우 대체 텍스트 -->
+  <img src="naver_img.jpg" alt="Naver" width="100">
+  <hr>
+
+  <!-- 이미지를 선택하면 해당 링크 열기 -->
+  <a href="https://naver.com" target="_blank">
+    <img src="naver_img.jpg" alt="Naver" width="100">
+  </a>
+  <hr>
+
+</body>
+</html>
