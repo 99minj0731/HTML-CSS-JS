@@ -1,0 +1,30 @@
+body {
+  font-size: 15px;
+  /* line-height: 22px; */
+  /* 상대적 크기로 지정 */
+  line-height: 1.6em;
+}
+h1 {
+  font-weight: normal;
+  /* color: dodgerblue; */
+  /* color: rgba(136, 174, 40, 0.726); */
+  color: #000000;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through;
+}
+a {
+  text-decoration: none;
+}
+p.text{
+  font-weight: bold;
+  font-style: italic;
+  text-align: justify;  
+}
+p.copy {
+  text-transform: none;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-align: right;
+  text-align: left;
+}

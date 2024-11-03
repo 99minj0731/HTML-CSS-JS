@@ -1,0 +1,45 @@
+p {
+  text-align: center;
+  color: red;
+}
+.center {
+  text-align: right;
+  color: blue;
+}
+#center {
+  text-align-last: left;
+  color: orange;
+}
+p.center{
+  color: green;
+}
+
+/* 그룹 선택자 */
+h1, h2 {
+  color: red;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* 하위 선택자 */
+h3 b {
+  color: blue;
+}
+
+/* 전체 선택자 */
+* {
+
+}
+
+/* 
+CSS 적용 우선순위
+1. !importan
+2. inline
+3. ID
+4. class
+5. Tag
+
+p {
+  color: red !important;
+}
+*/
