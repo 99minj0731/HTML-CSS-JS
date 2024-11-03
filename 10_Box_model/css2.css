@@ -1,0 +1,24 @@
+.box {
+  font-size: 50px;
+  border: 1px solid red;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+  /* 박스 사이즈 정해놓기 */
+  box-sizing: border-box;
+}
+
+.box2 {
+  border: 1px solid red;
+  width: 600px;
+}
+
+.box2 div {
+  border: 1px solid blue;
+  width: 200px;
+  height: 200px;
+  float: left;
+  box-sizing: border-box;
+}
+38400

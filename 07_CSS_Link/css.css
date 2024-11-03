@@ -1,0 +1,8 @@
+.menu{
+  list-style: None;
+}
+
+/* before 가상클래스 활용하기 */
+.menu li:before {
+  content:'♥ ';
+}
