@@ -1,0 +1,17 @@
+a {
+  background-color: #fff;
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  color: black;
+  padding: 5px;
+  transition: 1s;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
