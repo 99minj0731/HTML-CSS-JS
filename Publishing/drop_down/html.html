@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: "Noto Serif KR", serif;
+      font-weight: 700;
+      color:#222;
+      line-height: 1.5em;
+    }
+    /* a태그는 body 태그를 따라가지 않음! */
+    a {
+      color: #222;
+      text-decoration: none;
+    }
+    .dropdown {
+      width: 200px;
+      /* 블럭 요소이면서 자기 자신만의 크기로 변경 */
+      /* display: inline-block; */
+    }
+    .dropdown-btn {
+      width: inherit;
+      padding: 10px;
+      font-size: 18px;
+      background-color: yellowgreen;
+      color: #fff;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+    .dropdown-submenu {
+      display: none;
+      /* border: 1px solid #000; */
+      width: 200px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    }
+    .dropdown-submenu a {
+      display: block;
+      padding: 7px;
+      text-align: center;
+
+    }
+
+    .dropdown-submenu a:hover {
+      background-color: #eee;
+      text-decoration: underline;
+    }
+    .dropdown:hover .dropdown-submenu{
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="dropdown">
+    <button class="dropdown-btn">Real Estate Type</button>
+    <div class="dropdown-submenu">
+      <a href="#none">김민정</a>
+      <a href="#none">이현희</a>
+      <a href="#none">최이화</a>
+      <a href="#none">김지훈</a>
+      <a href="#none">정다인</a>
+      <a href="#none">김혜민</a>
+      <a href="#none">조기흠</a>
+      <a href="#none">임현빈</a>
+    </div>
+  </div>
+</body>
+</html>
